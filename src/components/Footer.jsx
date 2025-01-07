@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="max-w-[1172px] px-4 mx-auto">
                 <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-10">
                     <a href="#">
-                        <img src="./assets/images/png/footer-logo.png" alt="footer-logo"
+                        <img src="./assets/images/webp/footer-logo.webp" alt="footer-logo"
                             className="max-w-[150px] max-sm:max-w-[100px] pointer-events-none"/>
                     </a>
                     <div className="flex flex-col gap-2">

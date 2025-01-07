@@ -27,7 +27,7 @@ const Header = () => {
         <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-dark-black">
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
-                    <a href="/"><img className='max-w-[192px]' src="./assets/images/png/logo.png" alt="nav-logo" /></a>
+                    <a href="/"><img className='max-w-[192px]' src="./assets/images/webp/logo.webp" alt="nav-logo" /></a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-8 items-center">
                             {NAV_DATA.map((obj, index) => (

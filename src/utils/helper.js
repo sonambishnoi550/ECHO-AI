@@ -36,15 +36,15 @@ export const TESTIMONIAL_DATA = [
             "“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human-like, and has consistently outperformed expectations.”",
         name: "Miguel Jordan,",
         role: "Appointment Setting Coach",
-        image: "./assets/images/png/man-one.png",
+        image: "./assets/images/webp/man-one.webp",
     },
     {
         title: "Game Changer!",
         description:
-            "“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
+            "“ECHO AI has really revolutionized our operations. My team  chase  operations to chase down the resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
         name: "Rachel Lettice,",
         role: "Creative Director",
-        image: "./assets/images/png/girl.png",
+        image: "./assets/images/webp/girl.webp",
     },
     {
         title: "This is Gold!",
@@ -52,7 +52,7 @@ export const TESTIMONIAL_DATA = [
             "“The autonomous sales flow is effective, to say the least. I was able to replace full-time VA, cutting expense completely while maintaining efficiency standard high-performing results.”",
         name: "Mike Lotz,",
         role: "CEO (MREM)",
-        image: "./assets/images/png/man-two.png",
+        image: "./assets/images/webp/man-two.webp",
     },
 ];
 export const ACCORDION_DATA = [
