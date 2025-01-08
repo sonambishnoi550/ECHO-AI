@@ -26,7 +26,7 @@ const Faq = () => {
                         >
                             <button
                                 onClick={() => toggleAccordion(index)}
-                                className={`font-medium text-xl max-sm:text-lg leading-6 text-white flex justify-between items-center text-start p-6 max-sm:pe-3 max-w-[1022px] w-full ${openAccordion === index ? "pb-4" : "pb-6"
+                                className={`font-medium text-xl max-sm:text-lg leading-6 text-white flex justify-between items-center text-start p-6 max-sm:p-3 max-w-[1022px] w-full ${openAccordion === index ? "pb-4" : "pb-6"
                                     }`}
                             >
                                 {item.heading}
