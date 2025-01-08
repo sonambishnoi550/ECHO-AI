@@ -19,7 +19,7 @@ const EchoCounter = () => {
         return <span>{value}</span>;
     };
     return (
-        <div className="-mt-1 text-white lg:pt-14 md:pt-12 pt-[60px] bg-dark-black lg:pb-[175px] md:pb-12 pb-[60px] relative">
+        <div id="solution" className="-mt-1 text-white lg:pt-14 md:pt-12 pt-[60px] bg-dark-black lg:pb-[175px] md:pb-12 pb-[60px] relative">
             <div className="container mx-auto px-4 relative z-10">
                 <div className="gap-8 max-sm:gap-6 text-center flex max-md:flex-wrap items-center justify-center">
                     {COUNTER_DATA.map(({ id, number, prefix = "", unit = "", description }, index) => (

@@ -10,7 +10,7 @@ const Faq = () => {
     };
 
     return (
-        <div className="bg-dark-black lg:pt-[98px] md:pt-16 pt-[60px] -mt-1 pb-[178px] max-lg:pb-[60px]">
+        <div id="faqs" className="bg-dark-black lg:pt-[98px] pt-0 -mt-1 pb-[178px] max-lg:pb-[60px]">
             <div className="container max-w-[1022px] mx-auto">
                 <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold">
                     FAQs

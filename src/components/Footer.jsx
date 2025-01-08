@@ -5,7 +5,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="bg-dark-black pt-[178px] max-xl:pt-[60px] max-sm:pt-5 -mt-1">
+        <div id='benefits' className="bg-dark-black pt-[178px] max-xl:pt-[60px] max-sm:pt-5 -mt-1">
             <div className="max-w-[1172px] px-4 mx-auto">
                 <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-10">
                     <a href="#">
@@ -16,13 +16,13 @@ const Footer = () => {
                         <p className="leading-5 max-sm:leading-4 text-white">Quick Links</p>
                         {FOOTER_DATA.map((obj, i) => (
                             <a key={i}
-                                className=" text-lightgray hover:text-white hover:opacity-100 transition-all duration-300 cursor-pointer max-sm:text-center"
+                                className=" text-light-gray hover:text-white hover:opacity-100 transition-all duration-300 cursor-pointer max-sm:text-center"
                                 href={obj.link}> {obj.title}
                             </a> ))}
                     </div>
                     <div className="flex flex-col">
                         <p className="text-white leading-5 max-sm:leading-4 pb-3 max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
-                        <a className="text-white leading-6 max-sm:leading-4 opacity-70 cursor-pointer hover:text-dark-blue transition-all duration-300 max-sm:text-center"
+                        <a className="text-white leading-6 max-sm:leading-4 opacity-70 hover:opacity-100 cursor-pointer transition-all duration-300 max-sm:text-center hover:text-white"
                             href="mailto:info@echoai.ai">info@echoai.ai</a>
                         <p className="text-white leading-5 max-sm:leading-4 max-sm:text-sm pt-8 max-sm:text-center">
                             Follow Us On</p>

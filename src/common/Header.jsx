@@ -24,7 +24,7 @@ const Header = () => {
         }
     }, [isMenuOpen])
     return (
-        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-dark-black">
+        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20">
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
                     <a href="/"><img className='max-w-[192px]' src="./assets/images/webp/logo.webp" alt="nav-logo" /></a>

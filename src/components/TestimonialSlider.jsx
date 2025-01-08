@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { TESTIMONIAL_DATA } from "../utils/helper";
 const TestimonialSlider = () => {
     return (
-        <div className="bg-dark-black lg:pb-28 pb-16">
+        <div id="testimonials" className="bg-dark-black lg:pb-28 pb-16">
             <div className="container">
                 <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold pb-10">Testimonials</h2>
                 <Swiper
@@ -50,7 +50,7 @@ const TestimonialSlider = () => {
                                 <div className="flex items-center gap-2">
                                     <img src={testimonial.image} alt={testimonial.name} className="size-[60px] rounded-full" />
                                     <div>
-                                        <p className="font-medium text-2xl leading-custom-sm max-sm:text-xl">{testimonial.name}</p>
+                                        <p className="font-medium leading-custom-sm text-xl">{testimonial.name}</p>
                                         <p className="text-base font-normal">{testimonial.role}</p>
                                     </div>
                                 </div>
