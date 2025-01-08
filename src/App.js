@@ -4,6 +4,7 @@ import EchoCounter from './components/EchoCounter'
 import TestimonialSlider from './components/TestimonialSlider'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
+import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <EchoCounter />
       <TestimonialSlider />
       <Faq />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </>
   )
 }

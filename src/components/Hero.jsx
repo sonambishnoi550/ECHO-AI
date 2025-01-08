@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../common/Header'
 import CustomButton from '../common/CustomButton'
-
 const Hero = () => {
   return (
     <div style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)`}} className='bg-hero bg-cover bg-no-repeat bg-center max-xl:h-[774.23px] relative bg-dark-black pb-16 max-lg:h-[880px] max-sm:!h-[800px]'>
@@ -25,5 +24,4 @@ const Hero = () => {
     </div>
   )
 }
-
 export default Hero
