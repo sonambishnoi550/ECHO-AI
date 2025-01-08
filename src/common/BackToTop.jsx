@@ -32,5 +32,4 @@ const BackToTop = () => {
         </div>
     );
 };
-
 export default BackToTop;
