@@ -18,8 +18,7 @@ const BackToTop = () => {
     return (
         <div>
             {isVisible && (
-                <button
-                    onClick={scrollToTop}
+                <button onClick={scrollToTop}
                     className="fixed bottom-5 right-5 z-20 bg-white p-2 w-12 border-blue-500 border rounded-md flex justify-center">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="blue" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
